@@ -93,3 +93,5 @@ best, _ := client.Live.BestList(ctx, func (i hn.Item) bool {
     return strings.Contains(i.Title, "Go")
 })
 ```
+# License
+MIT License
