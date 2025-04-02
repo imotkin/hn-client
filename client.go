@@ -336,11 +336,10 @@ func (s *UserService) Items(ctx context.Context, username string, filter func(It
 
 // Comments returns the comments submitted by the user with the given name.
 func (s *UserService) Comments(ctx context.Context, username string) ([]Comment, error) {
-	filter := func(item Item) bool {
+	items, err := s.Items(ctx, username, func(item Item) bool {
 		return item.Type == CommentType
-	}
-
-	items, err := s.Items(ctx, username, filter)
+	})
+	
 	if err != nil {
 		return nil, err
 	}
@@ -350,11 +349,9 @@ func (s *UserService) Comments(ctx context.Context, username string) ([]Comment,
 
 // Stories returns the stories submitted by the user with the given name.
 func (s *UserService) Stories(ctx context.Context, username string) ([]Story, error) {
-	filter := func(item Item) bool {
+	items, err := s.Items(ctx, username, func(item Item) bool {
 		return item.Type == StoryType
-	}
-
-	items, err := s.Items(ctx, username, filter)
+	})
 
 	if err != nil {
 		return nil, err
