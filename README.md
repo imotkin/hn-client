@@ -1,6 +1,6 @@
 # API Client for Hacker News 
 
-[![Build status](https://github.com/imotkin/hn-client/actions/workflows/go.yml/badge.svg)](https://github.com/github.com/imotkin/hn-client/actions/workflows/go.yml)
+[![Build status](https://github.com/imotkin/hn-client/actions/workflows/build.yml/badge.svg)](https://github.com/github.com/imotkin/hn-client/actions/workflows/build.yml)
 
 Links:
 * [API Docs](https://github.com/HackerNews/API)
