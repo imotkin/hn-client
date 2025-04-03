@@ -1,13 +1,15 @@
 # API Client for Hacker News 
 
+[![Build status](https://github.com/imotkin/hn-client/actions/workflows/go.yml/badge.svg)](https://github.com/github.com/imotkin/hn-client/actions/workflows/go.yml)
+
 Links:
 * [API Docs](https://github.com/HackerNews/API)
 * [Hacker News](https://news.ycombinator.com/)
 
-## Features:
+## Features
 
 * Retrieve user data (comments, stories, etc.)
-* Fetch recent updates and news (Best, New, etc.)
+* Fetch recent updates and stories (Best, New, etc.)
 * Filter and sort the results by multiple fields
 
 ## Installation
