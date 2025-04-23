@@ -1,5 +1,6 @@
 # API Client for Hacker News 
 
+[![Go Reference](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/imotkin/hn-client)
 [![Build status](https://github.com/imotkin/hn-client/actions/workflows/build.yml/badge.svg)](https://github.com/github.com/imotkin/hn-client/actions/workflows/build.yml)
 
 Links:
